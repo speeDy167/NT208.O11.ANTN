@@ -1,0 +1,1 @@
+export const karmicDebtNumber = new Set([13, 14, 16, 19]);
