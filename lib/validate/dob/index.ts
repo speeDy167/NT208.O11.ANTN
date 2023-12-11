@@ -10,7 +10,7 @@ export function extractDob(dateString: string): DateOfBirth | null {
 
    return {
       day: dateObj.date(),
-      month: dateObj.month() + 1, // Months are zero-indexed, so add 1
+      month: dateObj.month() + 1,
       year: dateObj.year()
    };
 }

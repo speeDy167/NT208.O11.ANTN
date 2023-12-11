@@ -9,7 +9,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Thần Số Học | App Tra Cứu",
+  title: "Tra Cứu Thần Số Học",
   description: "Nhóm 4",
 };
 

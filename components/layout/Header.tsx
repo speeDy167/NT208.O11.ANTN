@@ -1,23 +1,20 @@
 import React from "react";
 import Menu from "./Menu";
 import Link from "next/link";
-import dynamic from "next/dynamic";
 import Image from "next/image";
 
 function Header() {
-
   return (
-    <header className="header sticky top-0 z-50 shadow-sm width-full bg-black">
-      <div className="header-container max-w-7xl m-auto flex justify-between items-center px-5 h-16">
-        <div className="logo">
-          <Link href="/" className="text-xl font-bold flex gap-4 items-center">
+    <header className="header sticky top-0 z-50 shadow-sm bg-black">
+      <div className="header-container max-w-7xl mx-auto px-5 h-16 flex justify-between items-center">
+        <div className="logo flex items-center">
+          <Link href="/" className="text-xl font-bold flex items-center">
             <Image
               src="/logo.png"
               alt="Thần Số Học"
               width="64"
               height="50"
-              style={{ objectFit: "cover" }}
-              className="max-h[50px] overflow-hidden"
+              className="max-h-12 md:max-h-16 overflow-hidden"
             />
             <span className="font-pattaya hidden md:block text-xl lg:text-3xl text-white hover:opacity-80">
               Thần Số Học
@@ -31,7 +28,5 @@ function Header() {
     </header>
   );
 }
-
-Header.propTypes = {};
 
 export default Header;

@@ -181,9 +181,10 @@ function FormCard() {
                           selected={date}
                           onSelect={setDate}
                           fromYear={1950}
-                          toYear={2030}
+                          toYear={2023}
                           initialFocus
                           className="rounded-md border z-50 w-full bg-white dark:bg-slate-600"
+                          
                         />
                       </PopoverContent>
                     </Popover>

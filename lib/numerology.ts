@@ -18,13 +18,6 @@ export function CalcMainNumber(birthday: string): IMainNumber {
   let arrDate = birthday.replaceAll("-", "").replaceAll("/", "");
   let mainNumber: number = 0;
 
-  //   arrDate.forEach((item) => {
-  //     item = item.slice(-2);
-  //     console.log(item);
-  //     soChuDao = soChuDao + convertStrToNumber(item);
-  //     console.log(soChuDao);
-  //   });
-
   let strStep = "";
   for (let i = 0; i < arrDate.length; i++) {
     strStep += arrDate[i];
@@ -64,10 +57,6 @@ function convertStrToNumber(str: string): number {
 }
 
 function findNumerologyIndexBySlug(slug: string) {
-  // return array.find((element) => {
-  //   return element.title === title;
-  // })
-
   return NumerologyIndex.find((element) => {
     return element.name === slug;
   });

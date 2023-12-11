@@ -66,7 +66,7 @@ export default function Menu() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem className="hidden lg:flex">
-          <Link href="/about" legacyBehavior passHref>
+          <Link href="https://vuph.id.vn">
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Tìm kiếm
             </NavigationMenuLink>

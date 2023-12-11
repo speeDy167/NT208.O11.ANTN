@@ -1,19 +1,8 @@
 "use client";
 import { getAllIndexes } from "@/api/allIndexes";
-//import FormCard from "@/components/FormCard";
-//import FormInfo from "@/components/FormInfo";
 import NumberAnimation from "@/components/NumberAnimation";
 import IndexList from "@/components/numerology/IndexList";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormLabel,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 import { DataSoChuDao } from "@/lib/data-sochudao";
 import { CalcMainNumber, IMainNumber } from "@/lib/numerology";
 import { useSpring, animated } from "@react-spring/web";
@@ -171,7 +160,7 @@ function NumerologyByName() {
             style={styleDesc}
           >
             <h5 className="text-lg lg:text-xl text-primary font-bold flex items-center justify-center p-5">
-              Cảm ơn bạn đã xem. Chúc bạn luôn vui vẻ, hạnh phúc :){" "}
+              Cảm ơn bạn đã xem. Chúc bạn luôn vui vẻ, hạnh phúc.
             </h5>
           </animated.div>
         </div>
