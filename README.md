@@ -18,4 +18,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deploy on Vercel
 
-https://thansohoc.vercel.app
+https://tracuuthansohoc.vercel.app
